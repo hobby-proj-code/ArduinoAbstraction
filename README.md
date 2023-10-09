@@ -11,7 +11,7 @@ It is tested aginst below hardware
 * [efr32xg24-explorer-kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
 
 # Setup guide for Silicon Studio
-Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refer [Example](https://github.com/hobby-proj-code/SiStArduinoAbstraction) which uses Arduino SI7021 to display temprature and humidity.
+Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refer [Example](https://github.com/hobby-proj-code/SiStArduinoAbstraction) which uses Arduino SI7021 to output temprature and humidity.  
 1. Copy ArduinoAbstraction folder to project folder. For Git, this repo can be added as submodule also. Refer below sample for setting up Git as submodule.
 
    ```bash
@@ -27,5 +27,5 @@ Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refe
    Services->Sleep Timer
    Platform->Peripheral->I2C
    ```
-4. Go to project properties and edit "C/C++ Build->Settings". Select "[All configurations]" and add include file "${workspace_loc:/${ProjName}/ArduinoAbstractions/Arduino.h}" to C++ compiler setting only.
-5. Edit "ArduinoAbstraction/EFR32Variant.h" to select IoT board.
+4. Go to project properties and edit "C/C++ Build->Settings". Select "[All configurations]" and add include path "${workspace_loc:/${ProjName}/ArduinoAbstractions}" to C and C++ compiler setting.
+5. Include "Arduino.h" in file where "setup" and "loop" function are implemented. To use Arduino functionality in other files include "Arduino.h".
