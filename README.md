@@ -27,6 +27,5 @@ Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refe
    Services->Sleep Timer
    Platform->Peripheral->I2C
    ```
-4. Go to project properties and edit "C/C++ Build->Settings". Select "[All configurations]" and add include path "${workspace_loc:/${ProjName}/ArduinoAbstractions}" to C and C++ compiler setting.
-5. Again go to project properties and edit "C/C++ Build->Settings". Select "[All configurations]" and add Preprocessor define "ARDUINO=101" to C and C++ compiler setting.
-6. Include "Arduino.h" in file where "setup" and "loop" function are implemented. To use Arduino functionality in other files include "Arduino.h".
+4. Go to project properties and edit "C/C++ Build->Settings". Select "[All configurations]" and add include file "${workspace_loc:/${ProjName}/ArduinoAbstractions/Arduino.h}" to C++ compiler setting only.
+5. Edit "ArduinoAbstraction/EFR32Variant.h" to select IoT board.
