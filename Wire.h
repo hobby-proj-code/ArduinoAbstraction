@@ -8,7 +8,7 @@
 #ifndef ARDUINOABSTRACTIONS_WIRE_H_
 #define ARDUINOABSTRACTIONS_WIRE_H_
 
-#include <ArduinoAbstractions/ArduinoCore-API/api/HardwareI2C.h>
+#include "ArduinoCore-API/api/HardwareI2C.h"
 //#include <ArduinoAbstractions/VendorTypes.h>
 
 enum I2CPort

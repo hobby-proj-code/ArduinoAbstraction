@@ -5,6 +5,6 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/xg24dk2601b.h>
+#include "xg24dk2601b.h"
 
 

@@ -5,8 +5,8 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/VendorCode.h>
-#include <ArduinoAbstractions/ArduinoMain.h>
+#include "VendorCode.h"
+#include "ArduinoMain.h"
 
 int main(void)
 {

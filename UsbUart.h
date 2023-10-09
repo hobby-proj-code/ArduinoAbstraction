@@ -8,7 +8,7 @@
 #ifndef ARDUINOABSTRACTIONS_USBUART_H_
 #define ARDUINOABSTRACTIONS_USBUART_H_
 
-#include <ArduinoAbstractions/ArduinoCore-API/api/HardwareSerial.h>
+#include "ArduinoCore-API/api/HardwareSerial.h"
 //#include <ArduinoAbstractions/VendorTypes.h>
 
 class UsbUart: public arduino::HardwareSerial

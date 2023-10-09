@@ -1,4 +1,4 @@
-#include <ArduinoAbstractions/EFR32Variant.h>
+#include "EFR32Variant.h"
 
 //static sl_iostream_uart_t sl_iostream_vcom;
 UsbUart Serial;

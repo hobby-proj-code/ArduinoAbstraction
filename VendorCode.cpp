@@ -5,8 +5,8 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/VendorCode.h>
-#include <ArduinoAbstractions/Arduino.h>
+#include "VendorCode.h"
+#include "Arduino.h"
 
 
 #define _GPIOINT_IF_EVEN_MASK ((_GPIO_IF_MASK) & 0x55555555UL)

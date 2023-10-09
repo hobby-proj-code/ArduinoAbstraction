@@ -9,11 +9,11 @@
 #define ARDUINOABSTRACTIONS_ARDUINO_H_
 
 
-#include <ArduinoAbstractions/EFR32Variant.h>
-#include <ArduinoAbstractions/ArduinoMain.h>
-#include <ArduinoAbstractions/ArduinoCore-API/api/Common.h>
-#include <ArduinoAbstractions/ArduinoCore-API/api/itoa.h>
-#include <ArduinoAbstractions/ArduinoCore-API/api/HardwareSerial.h>
+#include "EFR32Variant.h"
+#include "ArduinoMain.h"
+#include "ArduinoCore-API/api/Common.h"
+#include "ArduinoCore-API/api/itoa.h"
+#include "ArduinoCore-API/api/HardwareSerial.h"
 #include "StandarLibrary.h"
 
 typedef uint8_t byte;

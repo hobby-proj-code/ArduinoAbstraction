@@ -5,8 +5,8 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/UsbUart.h>
-#include <ArduinoAbstractions/VendorCode.h>
+#include "UsbUart.h"
+#include "VendorCode.h"
 
 void UsbUart::begin(unsigned long rate)
 {

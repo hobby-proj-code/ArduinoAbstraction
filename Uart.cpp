@@ -6,8 +6,8 @@
  */
 
 
-#include <ArduinoAbstractions/Uart.h>
-#include <ArduinoAbstractions/VendorCode.h>
+#include "Uart.h"
+#include "VendorCode.h"
 
 Uart::Uart(UartPort portParam): port(portParam)
 {

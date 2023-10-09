@@ -5,6 +5,6 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/xg24ek2703b.h>
+#include "xg24ek2703b.h"
 
 

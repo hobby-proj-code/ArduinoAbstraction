@@ -5,7 +5,7 @@
  *      Author: aditayagarg
  */
 
-#include <SPI.h>
+#include "SPI.h"
 
 void SPINonInterrupt::beginTransaction (SPISettings settings)
 {

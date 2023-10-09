@@ -9,7 +9,7 @@
 #define ARDUINOABSTRACTIONS_UART_H_
 
 
-#include <ArduinoAbstractions/ArduinoCore-API/api/HardwareSerial.h>
+#include "ArduinoCore-API/api/HardwareSerial.h"
 //#include <ArduinoAbstractions/VendorTypes.h>
 #define UART_BUFFER_SIZE 100
 enum UartPort

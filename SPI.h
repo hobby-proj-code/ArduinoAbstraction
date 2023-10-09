@@ -8,7 +8,7 @@
 #ifndef ARDUINOABSTRACTIONS_SPI_H_
 #define ARDUINOABSTRACTIONS_SPI_H_
 
-#include <ArduinoAbstractions/ArduinoCore-API/api/HardwareSPI.h>
+#include "ArduinoCore-API/api/HardwareSPI.h"
 
 enum SPIPort
 {

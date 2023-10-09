@@ -5,8 +5,8 @@
  *      Author: aditayagarg
  */
 
-#include <ArduinoAbstractions/VendorCode.h>
-#include <Wire.h>
+#include "VendorCode.h"
+#include "Wire.h"
 
 I2CCommon::I2CCommon(I2CPort port)
 {
