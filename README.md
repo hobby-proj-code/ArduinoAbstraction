@@ -11,7 +11,7 @@ It is tested aginst below hardware
 * [efr32xg24-explorer-kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
 
 # Setup guide for Silicon Studio
-Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refer [Example](https://github.com/hobby-proj-code/SiStArduinoAbstraction) which uses Arduino SI7021  
+Follow below steps to start using ArduinoAbstractions in Simplicity studio. Refer [Example](https://github.com/hobby-proj-code/SiStArduinoAbstraction) which uses Arduino SI7021 to display temprature and humidity.
 1. Copy ArduinoAbstraction folder to project folder. For Git, this repo can be added as submodule also. Refer below sample for setting up Git as submodule.
 
    ```bash
